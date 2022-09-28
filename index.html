@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grid com 4 Cards inline para uso diverso</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+
+  <body>
+<style>
+
+.card-body{
+  background-color: rgb(179, 13, 13); <!-- inserir variavel de cor do fundo do card-->
+
+}
+
+.value {
+  background-color: rgb(118, 156, 12); <!-- inserir variavel de cor do fundo do value, caso queira destaque,senão deixar transparent-->
+}
+
+.title{
+  color: rgb(200, 121, 11); <!-- inserir variavel de cor do titulo principal-->
+  
+}
+
+.subtitle{
+  color: blueviolet; <!-- inserir variavel de cor do subtitulo do titulo principal-->
+}
+
+.card-title {
+  color: aquamarine; <!-- inserir variavel de cor do titulo do card 1-->
+
+}
+
+.card-text{
+  color: gold; <!-- inserir variavel de cor do texto do card 1-->
+}
+
+</style>
+
+
+<div id="{{uniq}}">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3 mx-auto text-center">
+    <h2 class="title">Titulo Principal</h2>
+    <p class="subtitle">Descrição titulo principal</p>
+    </div>
+  </div>
+  </div>
+
+  
+    
+    <div class="container">
+      <div class="row">
+
+        <div class="col-xs-12 col-sm-6 col-md-3 mx-auto text-center">
+         <div class="card">
+          <img src="imagem1.png" class="img-fluid" alt="teste">
+          <div class="card-body">
+            <h3 class="card-title">Faina</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci explicabo eum, laborum natus a id, rem ea ipsam aliquid doloremque, neque delectus ullam! Vitae ad doloremque repellendus reprehenderit officiis.</p>
+          
+          <h5 class="value">R$230,00 por pessoa</h5>
+        </div>
+          <button type="button" class="btn btn-primary">+ Detalhes</button>
+         </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3 mx-auto text-center">
+          <div class="card">
+           <img src="imagem1.png" class="img-fluid" alt="teste">
+           <div class="card-body">
+             <h3 class="card-title">Paumelo</h3>
+             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci explicabo eum, laborum natus a id, rem ea ipsam aliquid doloremque, neque delectus ullam! Vitae ad doloremque repellendus reprehenderit officiis.</p>
+           
+           <h5 class="value">R$200,00 por pessoa</h5>
+         </div>
+           <button type="button" class="btn btn-primary">+ Detalhes</button>
+          </div>
+         </div>
+         <div class="col-xs-12 col-sm-6 col-md-3 mx-auto text-center">
+          <div class="card">
+           <img src="imagem1.png" class="img-fluid" alt="teste">
+           <div class="card-body">
+             <h3 class="card-title">Mar de Espanha</h3>
+             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci explicabo eum, laborum natus a id, rem ea ipsam aliquid doloremque, neque delectus ullam! Vitae ad doloremque repellendus reprehenderit officiis.</p>
+           
+           <h5 class="value">R$280,00 por pessoa</h5>
+         </div>
+           <button type="button" class="btn btn-primary">+ Detalhes</button>
+          </div>
+         </div>
+
+         <div class="col-xs-12 col-sm-6 col-md-3 mx-auto text-center">
+          <div class="card">
+           <img src="imagem1.png" class="img-fluid" alt="teste">
+           <div class="card-body">
+             <h3 class="card-title">Mesquita</h3>
+             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci explicabo eum, laborum natus a id, rem ea ipsam aliquid doloremque, neque delectus ullam! Vitae ad doloremque repellendus reprehenderit officiis.</p>
+           
+           <h5 class="value">R$80,00 por pessoa</h5>
+         </div>
+           <button type="button" class="btn btn-primary">+ Detalhes</button>
+          </div>
+         </div>
+                           
+
+      </div>
+      
+      
+
+    </div>
+
+  </div>
+
+
+  </body>
+</html>
